@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="I'm Tuhin,and this is my personal portfolio website.">
+    <title>Md. Nazmul Alam (Tuhin)</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <link rel="stylesheet" href="/styles/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header id="header" class="header">
+        <nav class="nav container">
+            <a href="/" class="nav_logo">Nazmul</a>
+            <div id="nav-menu" class="nav_menu">
+                <div class="nav_list_grid">
+                    <ul class="nav_list">
+                        <li class="nav_items">
+                            <a href="#home" class="nav_link active_link">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav_items">
+                            <a href="#about" class="nav_link active_link">
+                                About
+                            </a>
+                        </li>
+                        <li class="nav_items">
+                            <a href="#skills" class="nav_link active_link">
+                                Skills
+                            </a>
+                        </li>
+                        <li class="nav_items">
+                            <a href="#services" class="nav_link active_link">
+                                Services
+                            </a>
+                        </li>
+                        <li class="nav_items">
+                            <a href="#portfolio" class="nav_link active_link">
+                                Portfolio
+                            </a>
+                        </li>
+                        <li class="nav_items">
+                            <a href="#contact" class="nav_link active_link">
+                                Contact me
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="nav_btns">
+                        <i class="uil uil-moon change-theme" id="theme-button"></i>
+                    </div>
+                </div>
+
+            </div>
+            <div class="nav_toggle" id="nav-toggle">
+                <i class="uil uil-apps"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="home">
+            <div class="hero grid">
+                <div class="social-links">
+                    <a href="https://www.instagram.com/" target="_blank" class="home__social-icon">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                    <a href="https://github.com/mrinmoy-hex" target="_blank" class="home__social-icon">
+                        <i class="uil uil-github-alt"></i>
+                    </a>
+                    <a href="https://twitter.com/mrinmoy91013697" target="_blank" class="home__social-icon">
+                        <i class="uil uil-twitter-alt"></i>
+                    </a>
+                </div>
+                <div class="details">
+                    <h1>Hi, I am Nazmul</h1>
+                    <h3 class="typing-text">Software Engineer</h3>
+                    <p>High level experience in web design and development knowledge, producing quality work.</p>
+                    <a href="#contact"><button class="btn">Contact Me</button></a>
+                </div>
+                <div class="person_image">
+                    <img src="https://avatars.githubusercontent.com/u/142511000">
+                </div>
+            </div>
+            <div class="scroll">
+                <a href="#about" class="home__scroll-button button--flex">
+                    <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                    <span class="home__scroll-name"> Scroll down</span>
+                    <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                </a>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2 class="section_title">About me</h2>
+            <span class="section_subtitle">My Introduction</span>
+            <div class="about_container">
+                <img src="./assets/aboutme.jpg" class="about_image">
+                <div>
+                    <p class="about_description">
+                        Hi, I'm Md. Nazmul Alam (Tuhin). I'm a Software Engineering undergraduate at 
+                        Shahjalal University of Science and Technology (SUST) with a strong interest in backend 
+                        engineering, web development, and scalable system design. <br>
+                        Skilled in C/C++, Java, JavaScript, and modern web technologies including Next.js and React. 
+                        Passionate about writing clean, efficient, and maintainable code.
+                    </p>
+                    <div class="about_numbers">
+                        <div>
+                            <span class="about_info_title">02+</span>
+                            <span class="about_info_name">Years <br /> experience</span>
+                        </div>
+                        <div>
+                            <span class="about_info_title">20+</span>
+                            <span class="about_info_name">Completed <br /> project</span>
+                        </div>
+                        <div>
+                            <span class="about_info_title">24/7</span>
+                            <span class="about_info_name">Online <br /> support</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about_button">
+                <a href="./onepagecv/index.html" download>
+                    <button class="btn">Download CV <i class="uil uil-download-alt button__icon"></i></button>
+                </a>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2 class="section_title">Skills</h2>
+            <span class="section_subtitle">My technical level</span>
+            <div class="skills_container">
+                <div class="skills_content skill_open">
+                    <!-- first skill -->
+                    <div>
+                        <div class="skills_header">
+                            <i class="uil uil-brackets-curly skills_icon"></i>
+                            <div>
+                                <h3 class="skill_title">Frontend Developer</h3>
+                                <span class="skill_subtitle">More than 2+ years</span>
+                            </div>
+                            <i class="uil uil-angle-down skills_arrow"></i>
+                        </div>
+
+                        <div class="skills_list grid">
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skill_name">HTML</h3>
+                                    <span class="skill_number">90%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_html"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skill_name">CSS</h3>
+                                    <span class="skill_number">85%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_css"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skill_name">JS</h3>
+                                    <span class="skill_number">70%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_js"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skill_name">React</h3>
+                                    <span class="skill_number">35%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_react"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills_content skill_close">
+                    <div>
+                    <div class="skills_header">
+                            <i class="uil uil-server skills_icon"></i>
+                            <div>
+                                <h3 class="skill_title">Backend Developer</h3>
+                                <span class="skill_subtitle">More than 1 year</span>
+                            </div>
+                            <i class="uil uil-angle-down skills_arrow"></i>
+                        </div>
+                        <div class="skills_list grid">
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skill_name">PHP</h3>
+                                    <span class="skill_number">85%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_php"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skill_name">JS</h3>
+                                    <span class="skill_number">85%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_js"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skill_name">GO</h3>
+                                    <span class="skill_number">85%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_go"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="certificate" class="section">
+            <h2 class="section_title">My Certificates</h2>
+            <span class="section_subtitle">By Programming Hub</span>
+            <span class="section_subtitle">Scroll to slide to next >></span>
+            <div class="certificate_data">
+                <!-- first certificate -->
+                <div class="certificate_item">
+                    <img src="./assets/certificate.jpg" width="200px" height="150px">
+                    <div>
+                        <p>HTML certificate</p>
+                        <a href="./assets/certificate.pdf"><button class="btn">Preview</button></a>
+                    </div>
+                </div>
+                <!-- second certificate -->
+                <div class="certificate_item">
+                    <img src="./assets/certificate.jpg" width="200px" height="150px">
+                    <div>
+                        <p>CSS certificate</p>
+                        <a href="./assets/certificate.pdf"><button class="btn">Preview</button></a>
+                    </div>
+                </div>
+                <!-- third certificate -->
+                <div class="certificate_item">
+                    <img src="./assets/certificate.jpg" width="200px" height="150px">
+                    <div>
+                        <p>DevOps certificate</p>
+                        <a href="./assets/certificate.pdf"><button class="btn">Preview</button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section">
+            <h2 class="section_title">Services</h2>
+            <span class="section_subtitle">What I offer</span>
+            <div class="service_container grid">
+                <!-- first service -->
+                <div class="services_content">
+                    <div>
+                        <i class="uil uil-web-grid services_icon"></i>
+                        <h3>Ui/Ux <br> Designer</h3>
+                    </div>
+                    <span class="btn--flex btn--small btn--link services_btn">View More <i class="uil uil-arrow-right button_icon"></i></span>
+                    <div class="services_modal">
+                        <div class="services_modal-content">
+                            <i class="uil uil-times services_modal-close"></i>
+                            <h4>Ui/Ux <br> Designer</h4>
+                            <ul>
+                                <li>I develop the user interface.</li>
+                                <li>Web page development.</li>
+                                <li>I create ux element interactions.</li>
+                                <li>I position your company brand.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- second service -->
+                <div class="services_content">
+                    <div>
+                        <i class="uil uil-web-grid services_icon"></i>
+                        <h3 class="services_title">Frontend <br> Developer</h3>
+                    </div>
+                    <span class="btn--flex btn--small btn--link services_btn">View More <i class="uil uil-arrow-right button_icon"></i></span>
+                    <div class="services_modal">
+                        <div class="services_modal-content">
+                            <i class="uil uil-times services_modal-close"></i>
+                            <h4>Frontend <br> Developer</h4>
+                            <ul>
+                                <li>I develop the user interface.</li>
+                                <li>Web page development.</li>
+                                <li>I create ux element interactions.</li>
+                                <li>I position your company brand.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- third service -->
+                <div class="services_content">
+                    <div>
+                        <i class="uil uil-web-grid services_icon"></i>
+                        <h3 class="services_title">Branding <br> Designer</h3>
+                    </div>
+                    <span class="btn--flex btn--small btn--link services_btn">View More <i class="uil uil-arrow-right button_icon"></i></span>
+                    <div class="services_modal">
+                        <div class="services_modal-content">
+                            <i class="uil uil-times services_modal-close"></i>
+                            <h4>Branding <br> Designer</h4>
+                            <ul>
+                                <li>I develop the user interface.</li>
+                                <li>Web page development.</li>
+                                <li>I create ux element interactions.</li>
+                                <li>I position your company brand.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="section">
+            <h2 class="section_title">Portfolio</h2>
+            <span class="section_subtitle">Most recent work</span>
+            <div class="portfolio_container swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events swiper-container-css-mode aos-init aos-animate">
+                <div class="portfolio_content">
+                    <!-- PORTFOLIO 1 -->
+                    <div class="swiper-wrapper">
+                        <img src="./assets/modern.jpg">
+                        <div>
+                            <h3>Modern Website</h3>
+                            <p>Website adaptable to all devices, with ui components and
+                                animated interactions.</p>
+                            <a href=""><button>Demo</button></a>
+                        </div>
+                    </div>
+                    <!-- PORTFOLIO 2 -->
+                    <div class="swiper-wrapper">
+                        <img src="./assets/brand.jpg">
+                        <div>
+                            <h3>Brand Design</h3>
+                            <p>Website adaptable to all devices, with ui components and
+                                animated interactions.</p>
+                            <a href=""><button>Demo</button></a>
+                        </div>
+                    </div>
+                    <!-- PORTFOLIO 3 -->
+                    <div class="swiper-wrapper">
+                        <img src="./assets/online-store.jpg">
+                        <div>
+                            <h3>Online Store</h3>
+                            <p>Website adaptable to all devices, with ui components and
+                                animated interactions.</p>
+                            <a href=""><button>Demo</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- arrows -->
+                <div>
+                    <button>Preview</button>
+                </div>
+                <div>
+                    <button>Next</button>
+                </div>
+                <!-- pagination -->
+                <div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="project_section" class="section">
+            <div class="project_in_mind">
+                <div class="project_in_mind-data">
+                    <h2 class="section_title" style="color: #fff;">You have a new project?</h2>
+                    <p style="color: rgba(255,255,255,0.8);">Contact me now and let's work together.</p>
+                    <a href="#contact">
+                        <button class="btn project_btn">Contact Me <i class="uil uil-message button__icon"></i></button>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2 class="section_title">Contact Me</h2>
+            <span class="section_subtitle">Get in touch</span>
+            <div class="contact_container grid">
+                <!-- left div -->
+                <div class="contact_info">
+                    <div class="contact_card">
+                        <i class="uil uil-envelope contact_card-icon"></i>
+                        <h3 class="contact_card-title">Email</h3>
+                        <span class="contact_card-data">nazmul.alam.1042@gmail.com</span>
+                    </div>
+                    <div class="contact_card">
+                        <i class="uil uil-phone contact_card-icon"></i>
+                        <h3 class="contact_card-title">Phone</h3>
+                        <span class="contact_card-data">+8801518921489</span>
+                    </div>
+                    <div class="contact_card">
+                        <i class="uil uil-map-marker contact_card-icon"></i>
+                        <h3 class="contact_card-title">Location</h3>
+                        <span class="contact_card-data">Shonir Akhra, Dhaka</span>
+                    </div>
+                </div>
+                <!-- right div -->
+                <form action="" method="POST" class="contact_form">
+                    <div class="contact_form-group grid">
+                        <div class="contact_form-div">
+                            <label for="name" class="contact_form-label">Name</label>
+                            <input type="text" name="name" class="contact_form-input" placeholder="Your name">
+                        </div>
+                        <div class="contact_form-div">
+                            <label for="email" class="contact_form-label">Email</label>
+                            <input type="email" name="email" class="contact_form-input" placeholder="Your email">
+                        </div>
+                    </div>
+                    <div class="contact_form-div">
+                        <label for="project" class="contact_form-label">Project</label>
+                        <input type="text" name="project" class="contact_form-input" placeholder="Project name">
+                    </div>
+                    <div class="contact_form-div">
+                        <label for="message" class="contact_form-label">Message</label>
+                        <textarea name="message" rows="5" class="contact_form-input" placeholder="Your message"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" class="btn">Send Message <i class="uil uil-message button__icon"></i></button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer_container container">
+            <h1 class="footer_title">Nazmul</h1>
+            <span class="footer_subtitle">Software Engineer</span>
+            <ul class="footer_links">
+                <li><a href="#services" class="footer_link">Services</a></li>
+                <li><a href="#portfolio" class="footer_link">Portfolio</a></li>
+                <li><a href="#contact" class="footer_link">Contact</a></li>
+            </ul>
+            <div class="footer_socials">
+                <a href="https://github.com/nazmul11011" target="_blank" class="footer_social-icon">
+                    <i class="uil uil-github-alt"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/nazmul-alam-tuhin/" target="_blank" class="footer_social-icon">
+                    <i class="uil uil-linkedin-alt"></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" class="footer_social-icon">
+                    <i class="uil uil-instagram"></i>
+                </a>
+            </div>
+        </div>
+        <p class="footer_copy">&copy; 2026 Md. Nazmul Alam | All Rights Reserved</p>
+    </footer>
+
+    <a href="#home" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup_icon"></i>
+    </a>
+
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>
