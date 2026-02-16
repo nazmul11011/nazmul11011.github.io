@@ -1,0 +1,49 @@
+:root{
+  --accent:#111827; /* dark */
+  --muted:#6b7280;
+  --line:#e5e7eb;
+  font-family: -apple-system, BlinkMacSystemFont, Calibri, sans-serif;
+}
+
+body{margin:0;background:#fff;color:#111;}
+.page{max-width:842px;margin:28px auto;padding:36px 44px;border:1px solid var(--line);box-shadow:0 6px 18px rgba(0,0,0,0.03);}    
+header{display:flex;justify-content:space-between;align-items:flex-start;gap:20px}
+h1{font-size:32px;margin:0 0 4px 0;letter-spacing:-0.5px}
+.links a{color:#2563eb;text-decoration:none;margin-right:8px;font-size:13px}
+.contact{font-size:14px;text-align:right;color:var(--muted)}
+.contact b{color:var(--accent);}
+
+.headline{
+    margin-top:14px;padding:14px 0;
+    /* border-top:2px solid var(--line);
+    border-bottom:1px solid var(--line) */
+}
+.headline p{margin:10px 0;color:var(--muted);line-height:1.45}
+
+.section{margin-bottom: 16px;}
+.section h2{font-size:16px;margin:0 0 12px 0;letter-spacing:0.6px}
+dl{display:grid;grid-template-columns:160px 1fr;gap:6px 18px;margin:0}
+dt{font-weight:700;color:var(--accent);}
+dd{margin:0;color:var(--muted)}
+
+.skills{padding: 8px 16px 0 16px;}
+.skills ul{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:8px}
+.skills li{background:#f3f4f6;padding:6px 10px;border-radius:6px;font-size:13px;color:#111}
+
+.edu .row{display:flex;justify-content:space-between;align-items:flex-start;padding: 6px 16px 0 16px;}
+.edu .school{font-weight:700}
+.edu .muted{color:var(--muted);font-style:italic}
+
+.projects .project{margin-bottom:12px; padding: 10px 16px 0 16px;}
+.project h3{margin:0;font-size:15px}
+.project .meta{font-size:13px;color:var(--muted);margin-bottom:8px}
+.project ul{margin:6px 0 0 18px}
+
+footer{margin-top:18px;border-top:1px solid var(--line);padding-top:10px;color:var(--muted);font-size:13px}
+
+/* responsive */
+@media (max-width:720px){
+    .page{padding:18px}.two-col{flex-direction:column} 
+    header{flex-direction:column;align-items:flex-start}.contact{text-align:left}
+}
+  
